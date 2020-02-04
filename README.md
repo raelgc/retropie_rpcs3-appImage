@@ -19,7 +19,9 @@ wget https://raw.githubusercontent.com/raelgc/retropie_rpcs3/master/rpcs3.sh -O 
 
 Now you can run **RetroPie Setup** script and `rpcs3` will available under `exp` (experimental) packages section.
 
-After dump your original PS3 game, move the game content to a folder with a `.PS3` extension under `~/Retropie/roms/ps3/`. Example: if your game is `Skate3`, put content under `~/Retropie/roms/ps3/Skate3.PS3/`.
+After dump your original PS3 game, move the game content to a folder with a `.PS3` extension under `~/Retropie/roms/ps3/`.
+
+Example: if your game is `Skate3`, put content under `~/Retropie/roms/ps3/Skate3.PS3/`
 
 ## Playing
 
