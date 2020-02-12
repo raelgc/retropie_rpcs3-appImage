@@ -21,9 +21,33 @@ Now you can run **RetroPie Setup** script and `rpcs3` will available under `exp`
 
 ## Games folder
 
-After dump your original PS3 game, move the game content to a folder with a `.PS3` extension under `~/Retropie/roms/ps3/`.
+### ISO game
 
-Example: if your game is `Skate3`, put content under `~/Retropie/roms/ps3/Skate3.PS3/`
+After dump your original PS3 game, move the game content to a folder with a `.PS3` extension under `~/RetroPie/roms/ps3/`.
+
+Example: if your game is `Skate3`, put content under `~/RetroPie/roms/ps3/Skate3.PS3/`
+
+### PSN game
+
+#### Install
+
+Open RPCS3: from a terminal, run `/opt/retropie/emulators/rpcs3/bin/rpcs3.AppImage`.
+
+Then, into RPCS3 menu, select `File` > `Install .pkg`.
+
+Browse and select the `.pkg` content to run.
+
+#### EmulationStation
+
+In order to create an entry for the PSN game, take note of the game **serial** (you can see the game serial on RPCS3 UI).
+
+Then create a folder for your game  with a `.PS3` extension under `~/RetroPie/roms/ps3/` (remember to replace the **game name** by your actual game name):
+
+    mkdir ~/RetroPie/roms/ps3/<replace-with-your-game-name>.PS3
+
+Create a shortcut from the PS3 internal storage to the `~/RetroPie/roms/ps3/` (remember to replace the **serial** and **game name** by your actual game values):
+
+    ln -sf  ~/.config/rpcs3/dev_hdd0/game/<serial> ~/RetroPie/roms/ps3/<replace-with-your-game-name>.PS3/PS3_GAME
 
 ## Playing
 
