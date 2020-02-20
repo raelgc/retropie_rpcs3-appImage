@@ -39,7 +39,7 @@ Browse and select the `.pkg` content to run.
 
 ### EmulationStation
 
-In order to create an entry for the PSN game, take note of the game **serial** (you can copy the game serial on RPCS3 UI, right clicking in the game and select "Copy game serial").
+In order to create an entry for the PSN game, take note of the game **serial** (you can copy the game serial on RPCS3 UI, right clicking in the game and select "Copy info" > "Copy game serial").
 
 Then create a folder for your game  with a `.PS3` extension under `~/RetroPie/roms/ps3/` (remember to replace the **game name** by your actual game name):
 
