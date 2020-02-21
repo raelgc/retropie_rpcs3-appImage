@@ -4,14 +4,16 @@ This will add an entry on [Retropie-Setup](https://github.com/RetroPie/RetroPie-
 
 ## Install
 
-If PS3 is not added to platforms config file, edit `~/RetroPie-Setup/platforms.cfg` and add:
+Check if you have PS3 already listed in file `~/RetroPie-Setup/platforms.cfg`.
+
+If not, create (or edit) file `/opt/retropie/configs/all/platforms.cfg` and add:
 
 ```
 ps3_exts=".ps3"
 ps3_fullname="PlayStation 3"
 ```
 
-After that, install the script with:
+After that, install the RPCS3 setup script with:
 
 ```bash
 wget https://raw.githubusercontent.com/raelgc/retropie_rpcs3/master/rpcs3.sh -O ~/RetroPie-Setup/scriptmodules/emulators/rpcs3.sh
