@@ -1,6 +1,6 @@
-# RPCS3 Setup to Retropie
+# RPCS3 Setup for Retropie
 
-This will add an entry on [Retropie-Setup](https://github.com/RetroPie/RetroPie-Setup) for [RPCS3 emulator](https://rpcs3.net).
+This will add an entry on [Retropie-Setup](https://github.com/RetroPie/RetroPie-Setup) for [RPCS3 emulator](https://rpcs3.net) running on a X86 (aka PC) machine.
 
 ## Install
 
