@@ -2,7 +2,7 @@
 
 This will add an entry on [Retropie-Setup](https://github.com/RetroPie/RetroPie-Setup) for [RPCS3 emulator](https://rpcs3.net) running on a X86 (aka PC) machine.
 
-## Install
+## Requirements
 
 Check if you have PS3 already listed in file `~/RetroPie-Setup/platforms.cfg`.
 
@@ -12,6 +12,8 @@ If not, create (or edit) file `/opt/retropie/configs/all/platforms.cfg` and add:
 ps3_exts=".ps3"
 ps3_fullname="PlayStation 3"
 ```
+
+## Install
 
 After that, install the RPCS3 setup script with:
 
