@@ -18,7 +18,7 @@ ps3_fullname="PlayStation 3"
 After that, install the RPCS3 setup script with:
 
 ```bash
-wget https://raw.githubusercontent.com/raelgc/retropie_rpcs3-appImage/master/rpcs3.sh -O ~/RetroPie-Setup/scriptmodules/emulators/rpcs3.sh
+wget https://raw.githubusercontent.com/raelgc/retropie_rpcs3-appImage/master/rpcs3-appImage.sh -O ~/RetroPie-Setup/scriptmodules/emulators/rpcs3-appImage.sh
 ```
 
 Now you can run **RetroPie Setup** script and `rpcs3` will available under `exp` (experimental) packages section.
