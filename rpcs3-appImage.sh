@@ -16,13 +16,13 @@ rp_module_licence="GPL2 https://raw.githubusercontent.com/RPCS3/rpcs3/master/LIC
 rp_module_section="exp"
 rp_module_flags="!arm"
 
-function install_bin_rpcs3() {
+function install_bin_rpcs3-appImage() {
     mkdir -p "$md_inst/bin"
     wget --content-disposition https://rpcs3.net/latest-appimage -O "$md_inst/bin/rpcs3.AppImage"
     chmod +x "$md_inst/bin/rpcs3.AppImage"
 }
 
-function configure_rpcs3() {
+function configure_rpcs3-appImage() {
     mkRomDir "ps3"
     addEmulator 0 "$md_id" "ps3" "$md_inst/bin/rpcs3.AppImage %ROM%/PS3_GAME/USRDIR/EBOOT.BIN"
     addEmulator 1 "$md_id-nogui" "ps3" "$md_inst/bin/rpcs3.AppImage --no-gui %ROM%/PS3_GAME/USRDIR/EBOOT.BIN"
